@@ -28,23 +28,23 @@ export const RestaurentMenu = () => {
     const {message} = resInfo?.feeDetails;
 
     return ( 
-        <div className=" ml-56 mt-14 " id={id}>  
-            <h1 className="mr-72 font-bold text-2xl mb-7">{name}</h1>
-            <div className="border-2 mr-72 rounded-2xl shadow-2xl bg-zinc-900 shadow-gray-800 p-4 mb-16">
-                <p className="font-bold pb-1">⭐ {avgRating} ({totalRatingsString}) - {costForTwoMessage}</p>
-                <p className="ml-2 text-sm text-yellow-300 pb-2 "> {cuisines.join(", ")} </p>
+        <div className=" md:ml-56 mt-14 " id={id}>  
+            <h1 className="md:mr-72 md:font-bold md:text-2xl mb-7 font-semibold text-xl text-center">{name}</h1>
+            <div className="border-2 md:mr-72 md:ml-0 rounded-2xl shadow-2xl bg-zinc-900 shadow-gray-800 md:p-4 p-3 mr-12 ml-12 mb-16">
+                <p className="md:font-bold font-semibold pb-1">⭐ {avgRating} ({totalRatingsString}) - {costForTwoMessage}</p>
+                <p className="ml-2 md:text-sm text-xs  text-yellow-300 pb-2 "> {cuisines.join(", ")} </p>
                 <div className="flex mb-3">
                     <GoDotFill className="mt-1"/>
-                    <p className="font-semibold mr-2">&nbsp;&nbsp;Outlet </p> 
-                    <p>&nbsp;&nbsp;{areaName}</p>
+                    <p className="font-semibold md:text-base text-sm md:mr-2 mr-1">&nbsp;&nbsp;Outlet </p> 
+                    <p className="md:text-base text-sm">&nbsp;&nbsp;{areaName}</p>
                 </div>        
                 <div className="flex">
                     <GoDotFill className="mt-1"/>
-                    <p className="text-base ml-2">{slaString}</p>
+                    <p className="md:text-base text-sm ml-2">{slaString}</p>
                 </div>
                 <div className="mt-5 flex" >
-                    <img className="w-6 h-6 mr-3 rounded-lg" src={cycle}/>
-                    <p className="">{message}</p>    
+                    <img className="md:w-6 md:h-6 md:mr-3 mr-2 rounded-lg w-5 h-5" src={cycle}/>
+                    <p className="md:text-base text-sm">{message}</p>    
                 </div>                
             </div>
             {/* categories accordions */}

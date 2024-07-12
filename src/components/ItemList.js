@@ -20,10 +20,10 @@ export const ItemList = ({items}) => {
         <div className="justify-center items-center" >
             <div className="flex flex-wrap ">
                 {items.map((item) => (
-                    <div key={item.card.info.id} className="m-2 p-2 border-gray-400 border-b-[1px] flex flex-row-reverse"> 
-                        <div className="w-3/12 ml-4">
-                            <div className=" absolute justify-center items-center">
-                                <button onClick={handleButtonClickWrapper(item)} className="font-bold text-center w-24 font-sans  bg-white text-green-700 p-1 mx-9 rounded-md"> ADD</button>
+                    <div key={item.card.info.id} className="md:m-2 md:p-2 m-1 p-1 border-gray-400 border-b-[1px] flex flex-row-reverse"> 
+                        <div className="md:w-3/12 w-4/12 ml-4 mb-2">
+                            <div className="md:absolute justify-center items-center">
+                                <button onClick={handleButtonClickWrapper(item)} className="md:font-bold font-semibold text-center md:w-24 w-16 font-sans  bg-white text-green-700 md:p-1 md:mx-9 mx-4 rounded-md md:text-base text-sm "> ADD</button>
                             </div>
                             <img src={CDN_URL + item.card.info.imageId} className="" />
                         </div>
@@ -32,7 +32,7 @@ export const ItemList = ({items}) => {
                           <br/>  
                           <span className="text-xs">₹ {item.card.info.price ? item.card.info.price/100 : item.card.info.defaultPrice/100} </span>
                             
-                          <p className="text-sm mt-2 mb-3">{item.card.info.description}</p>
+                          <p className="md:text-sm text-xs mt-2 mb-3">{item.card.info.description}</p>
                         </div>
                     </div>
                 ))}

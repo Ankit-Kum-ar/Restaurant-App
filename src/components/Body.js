@@ -52,13 +52,13 @@ const Body = () => {
         <div className="Body">
             <div className="flex flex-wrap mb-5">
 
-                <div className=" ml-4">
-                    <input type="text" className="text-black p-[2px]" value={searchValue} onChange={(e) => setSearchValue(e.target.value)}/>
-                    <button className="ml-2 bg-gray-600  hover:bg-slate-800 pl-2 pr-2 rounded-lg" onClick={searchButton}>Search</button>
+                <div className=" md:ml-4 mx-2">
+                    <input type="text" className="text-black md:p-[2px] p-[1px] rounded-md" value={searchValue} onChange={(e) => setSearchValue(e.target.value)}/>
+                    <button className="ml-2 bg-gray-600  hover:bg-slate-800 md:pl-2 md:pr-2 px-1 rounded-lg md:text-base py-1 text-sm" onClick={searchButton}>Search</button>
                 </div>
 
                 <button 
-                    className="ml-10 bg-gray-600 hover:bg-slate-800 pl-2 pr-2 rounded-md"
+                    className="md:ml-10 mx-2 bg-gray-600 hover:bg-slate-800 md:pl-2 md:pr-2 px-1 rounded-md md:text-base text-xs"
                     onClick={() => {
                         // filter logic
                         const cardListFiltered = listCards.filter((res) => res.info.avgRating >= 4.4);
