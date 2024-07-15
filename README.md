@@ -1,11 +1,11 @@
 # Restaurant App 🍽️
 
-Welcome to the Restaurant App, a frontend project built using React and Parcel. This application allows users to browse a variety of restaurants, view menus, and manage their cart. The project is designed to be user-friendly and responsive, providing an optimal experience on both desktop and mobile devices.
+Welcome to the Restaurant App, a front-end project built using React and Parcel. This application allows users to browse various restaurants, view menus, and manage their carts. The project is designed to be user-friendly and responsive, providing an optimal experience on desktop and mobile devices.
 
 ## Features
 
 - 🏠 **Home Page**: Browse through a selection of restaurants.
-- 📞 **Contact Page**: Get in touch with the restaurant or support team.
+- 📞 **Contact Page**: Contact the restaurant or support team.
 - 🛒 **Cart Page**: View and manage the items in your cart.
 - ℹ️ **About Page**: Learn more about the restaurant or the application.
 - 🍽️ **Restaurant Menu**: View detailed menus for each restaurant by clicking on the restaurant cards.
@@ -80,7 +80,7 @@ The application should now be running on `http://localhost:1234`.
 To view the website properly, you need to enable the CORS extension in your browser. Here are the steps to do it:
 
 1. **Install the CORS extension**:
-    - For Chrome: [ALLOW CORS]([https://chrome.google.com/webstore/detail/cors-unblock/lfhmikememgdcahcdlaciloancbhjino](https://chromewebstore.google.com/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=en))
+    - For Chrome: [CROS ALLOW](https://chromewebstore.google.com/detail/lhobafahddgcelffkeicbaginigeejlf?hl=en)
     - For Firefox: [CORS Everywhere](https://addons.mozilla.org/en-US/firefox/addon/cors-everywhere/)
 
 2. **Enable the extension**:
