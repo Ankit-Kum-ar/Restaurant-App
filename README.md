@@ -80,7 +80,7 @@ The application should now be running on `http://localhost:1234`.
 To view the website properly, you need to enable the CORS extension in your browser. Here are the steps to do it:
 
 1. **Install the CORS extension**:
-    - For Chrome: [CORS Unblock](https://chrome.google.com/webstore/detail/cors-unblock/lfhmikememgdcahcdlaciloancbhjino)
+    - For Chrome: [ALLOW CORS]([https://chrome.google.com/webstore/detail/cors-unblock/lfhmikememgdcahcdlaciloancbhjino](https://chromewebstore.google.com/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=en))
     - For Firefox: [CORS Everywhere](https://addons.mozilla.org/en-US/firefox/addon/cors-everywhere/)
 
 2. **Enable the extension**:
